@@ -247,6 +247,9 @@
           },
           "defaultHttpRetryPolicy": {
             "$ref": "#/components/schemas/istio.networking.v1alpha3.HTTPRetry"
+          },
+          "discoveryServiceSelectors": {
+            "$ref": "#/components/schemas/k8s.io.apimachinery.pkg.apis.meta.v1.LabelSelector"
           }
         }
       },
